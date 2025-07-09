@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Oruzje : MonoBehaviour
-{
+public class Oruzje : MonoBehaviour {
     public GameObject projektil;
     public GameObject cesticeIspucavanje;
     public Transform mjestoIspucavanja;

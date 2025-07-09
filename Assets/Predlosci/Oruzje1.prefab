@@ -164,4 +164,4 @@ MonoBehaviour:
   projektil: {fileID: 4971328369732101857, guid: 95cae5e379d30ee4b8dc9908b619e68c, type: 3}
   cesticeIspucavanje: {fileID: 3936441719012211400, guid: 8af51030122960043bbf6a03cf592b12, type: 3}
   mjestoIspucavanja: {fileID: 1445965012925986239}
-  brzinaIspucavanja: 0.3
+  brzinaIspucavanja: 0.1
