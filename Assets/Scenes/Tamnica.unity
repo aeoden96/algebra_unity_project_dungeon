@@ -825,6 +825,10 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5386412836659917753, guid: a430a4ba9177c0749bb27a55806430d7, type: 3}
+      propertyPath: brzina
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
