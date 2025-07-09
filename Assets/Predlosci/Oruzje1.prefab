@@ -124,6 +124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6747508012091701261}
+  - component: {fileID: 3523891588877082855}
   m_Layer: 0
   m_Name: Oruzje1
   m_TagString: Untagged
@@ -148,3 +149,19 @@ Transform:
   - {fileID: 1445965012925986239}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3523891588877082855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701454701959225177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22a3905bbfc15d4ba1f0a062bd8ec7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projektil: {fileID: 4971328369732101857, guid: 95cae5e379d30ee4b8dc9908b619e68c, type: 3}
+  cesticeIspucavanje: {fileID: 3936441719012211400, guid: 8af51030122960043bbf6a03cf592b12, type: 3}
+  mjestoIspucavanja: {fileID: 1445965012925986239}
+  brzinaIspucavanja: 0.3
