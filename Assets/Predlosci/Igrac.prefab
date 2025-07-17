@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3144309870283431875}
   - component: {fileID: 1754709220164500658}
   - component: {fileID: 5386412836659917753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Igrac
   m_TagString: Igrac
   m_Icon: {fileID: 0}

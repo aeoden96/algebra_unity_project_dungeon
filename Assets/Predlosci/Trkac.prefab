@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 833276438224437208}
   - component: {fileID: 2486357558122409723}
   m_Layer: 0
-  m_Name: Slider
+  m_Name: Klizac zivoti
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -683,8 +683,8 @@ GameObject:
   - component: {fileID: 7067490659376940182}
   - component: {fileID: 327693172357885864}
   - component: {fileID: 215866228783928597}
-  - component: {fileID: 3303198570050346977}
-  m_Layer: 0
+  - component: {fileID: 1809778117632415915}
+  m_Layer: 8
   m_Name: Trkac
   m_TagString: Neprijatelj
   m_Icon: {fileID: 0}
@@ -804,7 +804,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3303198570050346977
+--- !u!114 &1809778117632415915
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -813,16 +813,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 6580084100874869154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36da622cbbf1ca3489cbf7e9cee096e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 026b64ec9ef29414ea79c108e03334f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   zivoti: 20
   brzina: 10
   igrac: {fileID: 0}
   steta: 1
-  vrijemeIzmeduNapada: 2
+  vrijemeIzmeduNapada: 3
   efektSmrti: {fileID: 6681427809607578649, guid: 12af31cdfc19f624ab0072b5e53859bb, type: 3}
   slajderHP: {fileID: 2486357558122409723}
+  stopUdaljenost: 15
+  brzinaAnimacije: 0
 --- !u!1 &7348898456349740719
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,7 +885,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 30
   m_TargetDisplay: 0
 --- !u!114 &8347884944462540423
 MonoBehaviour:

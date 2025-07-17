@@ -9,6 +9,8 @@ public class Igrac : MonoBehaviour {
     Animator anim;
     Vector2 micanjeUlaz;
 
+    public int zivoti = 5;
+
     private void Awake() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -33,5 +35,12 @@ public class Igrac : MonoBehaviour {
 
     private void FixedUpdate() {
         rb.MovePosition(rb.position + micanjeUlaz * brzina * Time.fixedDeltaTime);
+    }
+
+    public void PrimiStetu(int kolicina) {
+        zivoti -= kolicina;
+        if (zivoti <= 0) {
+            Destroy(gameObject);
+        }
     }
 }
