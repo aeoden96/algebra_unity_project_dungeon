@@ -23,10 +23,10 @@ public class Projektil : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        //ako projektil udari neprojatelja, uništi projektil i zadaj štetu neprijatelju
+        //ako projektil udari neprijatelja, uništi projektil i zadaj štetu neprijatelju
         if (collision.tag == "Neprijatelj") {
-            //zadaj štetu neprijatelju
-            Destroy(gameObject);
+            collision.GetComponent<Neprijatelj>().PrimiStetu(steta);
+            UnistavanjeProjektila();
         }
     }
 }

@@ -205,8 +205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brzina: 50
-  steta: 0
-  vrijemeTrajanja: 0.5
+  steta: 5
+  vrijemeTrajanja: 0.7
   cesticeEksplozija: {fileID: 3936441719012211400, guid: 8af51030122960043bbf6a03cf592b12, type: 3}
 --- !u!1 &9109626997584427708
 GameObject:
