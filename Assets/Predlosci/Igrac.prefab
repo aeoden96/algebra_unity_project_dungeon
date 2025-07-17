@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5386412836659917753}
   m_Layer: 0
   m_Name: Igrac
-  m_TagString: Untagged
+  m_TagString: Igrac
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
