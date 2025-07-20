@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,10 +16,24 @@ public class Trkac : Neprijatelj {
                 if (Time.time >= vrijemeNapada) {
                     vrijemeNapada = Time.time + vrijemeIzmeduNapada;
                     Debug.Log("NAPAAAAAAD!");
+                    StartCoroutine(Napad());
                     igrac.gameObject.GetComponent<Igrac>().PrimiStetu(steta);
-                    //igrac.GetComponent<Igrac>().PrimiStetu(steta);  -> mo�e i ovako
+                    //igrac.GetComponent<Igrac>().PrimiStetu(steta);  -> može i ovako
                 }
             }
+        }
+    }
+
+    IEnumerator Napad() {
+        Vector2 pocetnaPozicija = transform.position;
+        Vector2 krajnjaPozicija = igrac.position;
+
+        float postotak = 0;
+        while (postotak <= 1) {
+            postotak += Time.deltaTime * brzinaAnimacije;
+            float t = (-postotak * postotak + postotak) * 4;
+            transform.position = Vector2.Lerp(pocetnaPozicija, krajnjaPozicija, t);
+            yield return null;   //zaustavi izvođenje korutine i nastavi u idućem frejmu
         }
     }
 }

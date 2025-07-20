@@ -823,8 +823,8 @@ MonoBehaviour:
   vrijemeIzmeduNapada: 3
   efektSmrti: {fileID: 6681427809607578649, guid: 12af31cdfc19f624ab0072b5e53859bb, type: 3}
   slajderHP: {fileID: 2486357558122409723}
-  stopUdaljenost: 15
-  brzinaAnimacije: 0
+  stopUdaljenost: 8
+  brzinaAnimacije: 4
 --- !u!1 &7348898456349740719
 GameObject:
   m_ObjectHideFlags: 0
